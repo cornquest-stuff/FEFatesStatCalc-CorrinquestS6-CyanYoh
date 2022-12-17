@@ -190,14 +190,13 @@ db.classes = {
 		base	: new Stat(17, 5, 0, 4, 5, 3, 4, 0),
 		growth	: new Stat(10, 10, 0, 10, 10, 20, 10, 0),
 		maxStat	: new Stat(35, 19, 15, 19, 19, 22, 18, 15),
-		restriction : [ "mozume" ],
 	},
 	
 	merchant : {
 		name	: "Merchant",
 		tier	: "tier2",
 		base	: new Stat(20, 8, 0, 6, 5, 4, 8, 5),
-		growth	: new Stat(20, 20, 0, 10, 5, 15, 10, 5),
+		growth	: new Stat(20, 20, 0, 10, 5, 15, 15, 5),
 		maxStat	: new Stat(65, 33, 25, 29, 28, 32, 33, 30),
 	},
 	
@@ -268,7 +267,7 @@ db.classes = {
 		promoteTo : [ "exorcist", "basara" ],
 		parallel: "mage",
 		base	: new Stat(15, 0, 4, 5, 6, 1, 1, 3),
-		growth	: new Stat(0, 5, 15, 10, 10, 5, 0, 10),
+		growth	: new Stat(0, 5, 15, 10, 15, 5, 0, 10),
 		maxStat	: new Stat(35, 17, 22, 20, 23, 19, 16, 20),
 	},
 	
@@ -276,7 +275,7 @@ db.classes = {
 		name	: "Onmyoji",
 		tier	: "tier2",
 		base	: new Stat(16, 0, 7, 6, 7, 2, 3, 6),
-		growth	: new Stat(0, 0, 20, 10, 15, 0, 0, 15),
+		growth	: new Stat(0, 0, 20, 15, 15, 0, 0, 15),
 		maxStat	: new Stat(45, 25, 33, 31, 32, 27, 25, 31),
 	},
 	
@@ -285,7 +284,7 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "exorcist", "greatMaster" ],
 		base	: new Stat(16, 0, 3, 5, 5, 4, 2, 5),
-		growth	: new Stat(0, 5, 10, 10, 15, 15, 0, 20),
+		growth	: new Stat(0, 5, 10, 10, 15, 20, 0, 20),
 		maxStat	: new Stat(35, 18, 21, 20, 22, 23, 17, 24),
 	},
 	
@@ -294,7 +293,7 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "exorcist", "priestess" ],
 		base	: new Stat(16, 0, 3, 5, 5, 4, 2, 5),
-		growth	: new Stat(0, 5, 10, 10, 15, 15, 0, 20),
+		growth	: new Stat(0, 5, 10, 10, 15, 20, 0, 20),
 		maxStat	: new Stat(35, 18, 21, 20, 22, 23, 17, 24),
 	},
 	
@@ -302,7 +301,7 @@ db.classes = {
 		name	: "Great Master",
 		tier	: "tier2",
 		base	: new Stat(19, 8, 6, 6, 8, 5, 6, 7),
-		growth	: new Stat(10, 15, 5, 5, 15, 15, 10, 10),
+		growth	: new Stat(10, 15, 5, 5, 15, 20, 10, 10),
 		maxStat	: new Stat(55, 32, 30, 31, 33, 32, 28, 32),
 	},
 	
@@ -310,7 +309,7 @@ db.classes = {
 		name	: "Priestess",
 		tier	: "tier2",
 		base	: new Stat(19, 6, 7, 6, 9, 5, 5, 8),
-		growth	: new Stat(10, 10, 10, 5, 15, 15, 0, 20),
+		growth	: new Stat(10, 10, 10, 5, 15, 20, 0, 20),
 		maxStat	: new Stat(50, 29, 32, 30, 33, 34, 26, 34),
 	},
 	
@@ -336,7 +335,7 @@ db.classes = {
 		name	: "Kinshi Knight",
 		tier	: "tier2",
 		base	: new Stat(17, 4, 1, 9, 8, 5, 4, 7),
-		growth	: new Stat(0, 5, 0, 15, 15, 15, 0, 15),
+		growth	: new Stat(0, 10, 0, 15, 15, 15, 0, 15),
 		maxStat	: new Stat(50, 27, 26, 33, 31, 34, 25, 31),
 	},
 	
@@ -390,18 +389,16 @@ db.classes = {
 		promoteTo : [ "nineTails" ],
 		parallel: "apoth",
 		base	: new Stat(16, 5, 1, 6, 8, 4, 1, 4),
-		growth	: new Stat(10, 10, 0, 15, 20, 10, 0, 20),
+		growth	: new Stat(10, 10, 0, 15, 20, 15, 0, 20),
 		maxStat	: new Stat(40, 20, 18, 23, 24, 24, 18, 23),
-		restriction : [ "kaden" ],
 	},
 
 	nineTails : {
 		name	: "Nine-Tails",
 		tier	: "tier2",
 		base	: new Stat(19, 6, 2, 9, 10, 5, 2, 8),
-		growth	: new Stat(10, 10, 0, 15, 20, 10, 0, 20),
+		growth	: new Stat(10, 10, 0, 15, 20, 20, 0, 20),
 		maxStat	: new Stat(55, 29, 29, 33, 34, 33, 27, 34),
-		restriction : [ "kaden" ],
 	},
 	
 	cavalier : {
@@ -506,7 +503,7 @@ db.classes = {
 		name	: "Adventurer",
 		tier	: "tier2",
 		base	: new Stat(17, 4, 6, 6, 10, 2, 3, 8),
-		growth	: new Stat(0, 5, 15, 5, 20, 0, 0, 20),
+		growth	: new Stat(0, 10, 15, 10, 20, 0, 0, 20),
 		maxStat	: new Stat(50, 27, 31, 27, 34, 27, 25, 34),
 	},
 	
@@ -524,7 +521,7 @@ db.classes = {
 		name	: "Wyvern Lord",
 		tier	: "tier2",
 		base	: new Stat(19, 8, 0, 9, 6, 3, 10, 1),
-		growth	: new Stat(10, 15, 0, 15, 10, 5, 20, 0),
+		growth	: new Stat(15, 15, 0, 15, 10, 5, 20, 0),
 		maxStat	: new Stat(60, 33, 25, 33, 29, 28, 35, 26),
 	},
 	
@@ -532,7 +529,7 @@ db.classes = {
 		name	: "Malig Knight",
 		tier	: "tier2",
 		base	: new Stat(18, 7, 6, 6, 5, 0, 8, 6),
-		growth	: new Stat(0, 15, 15, 10, 5, 0, 10, 15),
+		growth	: new Stat(0, 15, 15, 10, 5, 0, 15, 15),
 		maxStat	: new Stat(55, 31, 30, 28, 27, 25, 31, 31),
 	},
 	
@@ -542,7 +539,7 @@ db.classes = {
 		promoteTo : [ "sorcerer", "darkKnight" ],
 		parallel: "diviner",
 		base	: new Stat(16, 0, 6, 3, 3, 1, 3, 5),
-		growth	: new Stat(0, 10, 20, 0, 10, 0, 5, 10),
+		growth	: new Stat(0, 10, 20, 0, 10, 0, 10, 10),
 		maxStat	: new Stat(35, 19, 24, 16, 19, 18, 19, 22),
 	},
 	
@@ -550,7 +547,7 @@ db.classes = {
 		name	: "Sorcerer",
 		tier	: "tier2",
 		base	: new Stat(17, 0, 9, 4, 6, 1, 5, 8),
-		growth	: new Stat(0, 0, 25, 0, 10, 0, 5, 15),
+		growth	: new Stat(5, 0, 25, 0, 10, 0, 10, 15),
 		maxStat	: new Stat(50, 25, 35, 26, 29, 26, 29, 33),
 	},
 	
@@ -567,7 +564,7 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "strategist", "maid" ],
 		base	: new Stat(15, 0, 3, 7, 5, 4, 1, 4),
-		growth	: new Stat(0, 0, 10, 20, 10, 15, 0, 15),
+		growth	: new Stat(0, 5, 10, 20, 10, 15, 0, 15),
 		maxStat	: new Stat(35, 16, 19, 24, 20, 23, 16, 21),
 	},
 	
@@ -575,7 +572,7 @@ db.classes = {
 		name	: "Strategist",
 		tier	: "tier2",
 		base	: new Stat(16, 0, 7, 6, 7, 5, 2, 7),
-		growth	: new Stat(0, 0, 15, 5, 10, 20, 0, 15),
+		growth	: new Stat(0, 0, 15, 10, 10, 20, 0, 15),
 		maxStat	: new Stat(45, 25, 33, 28, 31, 33, 25, 32),
 	},
 	
@@ -595,16 +592,14 @@ db.classes = {
 		base	: new Stat(19, 8, 0, 4, 6, 0, 4, 0),
 		growth	: new Stat(20, 20, 0, 5, 15, 5, 10, 0),
 		maxStat	: new Stat(45, 24, 15, 18, 22, 17, 21, 15),
-		restriction : [ "keaton" ],
 	},
 	
 	wolfssegner : {
 		name	: "Wolfssegner",
 		tier	: "tier2",
 		base	: new Stat(22, 11, 0, 6, 7, 1, 7, 1),
-		growth	: new Stat(20, 20, 0, 5, 15, 5, 10, 0),
+		growth	: new Stat(20, 20, 0, 5, 15, 5, 15, 0),
 		maxStat	: new Stat(65, 36, 25, 29, 31, 26, 32, 26),
-		restriction : [ "keaton" ],
 	},
 
 	singer : {
@@ -614,7 +609,6 @@ db.classes = {
 		base	: new Stat(16, 3, 0, 6, 5, 3, 2, 3),
 		growth	: new Stat(0, 10, 0, 20, 20, 20, 0, 0),
 		maxStat	: new Stat(45, 28, 27, 31, 31, 35, 27, 28),
-		restriction : [ "azura" ],
 	},
 	
 	darkFalcon : {
@@ -638,7 +632,7 @@ db.classes = {
 		name	: "Lodestar",
 		tier	: "special",
 		base	: new Stat(19, 7, 0, 10, 9, 7, 7, 2),
-		growth	: new Stat(15, 10, 0, 20, 10, 25, 5, 5),
+		growth	: new Stat(15, 10, 0, 20, 15, 25, 5, 5),
 		maxStat	: new Stat(60, 29, 26, 35, 33, 40, 30, 29),
 		genderLock : "M",
 	},
@@ -656,7 +650,7 @@ db.classes = {
 		name	: "Vanguard",
 		tier	: "special",
 		base	: new Stat(21, 10, 0, 6, 7, 3, 9, 1),
-		growth	: new Stat(20, 20, 0, 5, 5, 10, 15, 0),
+		growth	: new Stat(20, 20, 0, 15, 5, 10, 15, 0),
 		maxStat	: new Stat(65, 36, 25, 29, 30, 30, 32, 27),
 		genderLock : "M",
 	},
@@ -674,7 +668,7 @@ db.classes = {
 		name	: "Witch",
 		tier	: "special",
 		base	: new Stat(17, 0, 10, 5, 9, 3, 4, 5),
-		growth	: new Stat(5, 0, 25, 5, 20, 5, 0, 10),
+		growth	: new Stat(0, 0, 25, 5, 20, 5, 0, 10),
 		maxStat	: new Stat(50, 25, 36, 27, 34, 28, 26, 29),
 		genderLock : "F",
 	},
@@ -683,7 +677,7 @@ db.classes = {
 		name	: "Ballistician",
 		tier	: "special",
 		base	: new Stat(18, 10, 0, 7, 2, 4, 3, 1),
-		growth	: new Stat(5, 25, 0, 15, 0, 10, 5, 5),
+		growth	: new Stat(20, 25, 0, 15, 5, 10, 15, 0),
 		maxStat	: new Stat(50, 39, 25, 31, 25, 32, 27, 26),
 		genderLock : "M",
 	},

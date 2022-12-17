@@ -181,7 +181,7 @@ $(document).ready(function() {
 		if (unit == "mozume" || (db.character[unit] && (db.character[unit].gen == "child" || db.character[unit].gen == "avatarChild")))
 			$("#aptitude-check").show(ANIMATION_SPEED);
 		else
-			$("#aptitude-check").hide(ANIMATION_SPEED);
+			$("#aptitude-check").show(ANIMATION_SPEED);
 	}
 	
 	function updateBaseSelection(ch) {
