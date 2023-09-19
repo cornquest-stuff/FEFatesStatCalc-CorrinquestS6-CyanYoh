@@ -689,7 +689,7 @@ db.character = {
 		
 		baseMod	: {
 			none : new Stat(19, 7, 4, 7, 6, 5, 6, 2, 5),
-			boon : new Stat(3, 2, 3, 5, 2, 5, 3, 3),
+			boon : new Stat(3, 2, 3, 5, 2, 5, 2, 3),
 			bane : new Stat(-2, -1, -2, -2, -1, -2, -1, -1),
 		},
 		
