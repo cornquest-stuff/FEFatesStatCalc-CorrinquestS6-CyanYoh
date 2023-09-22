@@ -613,7 +613,7 @@ db.classes = {
 	
 	darkFalcon : {
 		name	: "Dark Falcon",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(17, 4, 7, 5, 9, 4, 3, 9),
 		growth	: new Stat(0, 10, 15, 5, 15, 15, 0, 20),
 		maxStat	: new Stat(45, 27, 32, 28, 33, 32, 26, 34),
@@ -621,7 +621,7 @@ db.classes = {
 	
 	dreadFighter : {
 		name	: "Dread Fighter",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(19, 8, 3, 6, 8, 1, 6, 9),
 		growth	: new Stat(15, 15, 5, 5, 15, 0, 5, 20),
 		maxStat	: new Stat(55, 32, 28, 29, 31, 26, 29, 34),
@@ -629,7 +629,7 @@ db.classes = {
 	
 	lodestar : {
 		name	: "Lodestar",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(19, 7, 0, 10, 9, 7, 7, 2),
 		growth	: new Stat(15, 10, 0, 20, 10, 25, 5, 5),
 		maxStat	: new Stat(60, 29, 26, 35, 33, 40, 30, 29),
@@ -637,7 +637,7 @@ db.classes = {
 	
 	greatLord : {
 		name	: "Great Lord",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(18, 8, 1, 8, 9, 5, 7, 3),
 		growth	: new Stat(15, 15, 0, 10, 10, 15, 10, 5),
 		maxStat	: new Stat(60, 30, 25, 32, 34, 35, 29, 31),
@@ -645,7 +645,7 @@ db.classes = {
 	
 	vanguard : {
 		name	: "Vanguard",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(21, 10, 0, 6, 7, 3, 9, 1),
 		growth	: new Stat(20, 20, 0, 5, 5, 10, 15, 0),
 		maxStat	: new Stat(65, 36, 25, 29, 30, 30, 32, 27),
@@ -653,7 +653,7 @@ db.classes = {
 	
 	grandmaster : {
 		name	: "Grandmaster",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(18, 7, 6, 8, 7, 2, 6, 8),
 		growth	: new Stat(10, 15, 15, 15, 5, 0, 5, 15),
 		maxStat	: new Stat(55, 31, 33, 33, 29, 26, 28, 33),
@@ -661,7 +661,7 @@ db.classes = {
 
 	witch : {
 		name	: "Witch",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(17, 0, 10, 5, 9, 3, 4, 5),
 		growth	: new Stat(5, 0, 25, 5, 20, 5, 0, 10),
 		maxStat	: new Stat(50, 25, 36, 27, 34, 28, 26, 29),
@@ -669,7 +669,7 @@ db.classes = {
 	
 	ballistician : {
 		name	: "Ballistician",
-		tier	: "special",
+		tier	: "tier2",
 		base	: new Stat(18, 10, 0, 7, 2, 4, 3, 1),
 		growth	: new Stat(5, 25, 0, 15, 0, 10, 5, 5),
 		maxStat	: new Stat(50, 39, 25, 31, 25, 32, 27, 26),
