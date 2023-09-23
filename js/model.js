@@ -248,7 +248,7 @@ db.classes = {
 	sentinel : {
 		name	: "Spear Master",
 		tier	: "tier2",
-		base	: new Stat(18, 9, 0, 9, 8, 3, 7, 3),
+		base	: new Stat(19, 9, 0, 9, 8, 3, 7, 3),
 		growth	: new Stat(15, 20, 0, 15, 15, 5, 10, 5),
 		maxStat	: new Stat(60, 34, 25, 33, 32, 29, 30, 29),
 	},
