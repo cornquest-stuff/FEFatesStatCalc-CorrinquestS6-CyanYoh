@@ -466,7 +466,7 @@ db.classes = {
 	mercenary : {
 		name	: "Mercenary",
 		tier	: "tier1",
-		promoteTo : [ "hero", "bowKnight", "lodestar" ],
+		promoteTo : [ "hero", "bowKnight", "lodestar", "vanguard" ],
 		parallel: "samurai",
 		base	: new Stat(17, 5, 0, 7, 6, 2, 5, 2),
 		growth	: new Stat(10, 15, 0, 20, 15, 5, 10, 5),
