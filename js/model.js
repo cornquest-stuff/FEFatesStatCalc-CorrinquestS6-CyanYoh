@@ -675,7 +675,7 @@ db.classes = {
 		maxStat	: new Stat(65, 40, 25, 33, 27, 32, 33, 26),
 	},
 
-	lancer : {
+	soldier : {
 		name	: "Lancer",
 		tier	: "tier1",
 		promoteTo : [ "ballistician", "greatLord" ],
