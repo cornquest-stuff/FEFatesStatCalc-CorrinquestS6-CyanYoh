@@ -536,7 +536,7 @@ db.classes = {
 	mage : {
 		name	: "Dark Mage",
 		tier	: "tier1",
-		promoteTo : [ "sorcerer", "darkKnight", "witch" ],
+		promoteTo : [ "sorcerer", "darkKnight", "witch", "grandmaster" ],
 		parallel: "diviner",
 		base	: new Stat(16, 0, 6, 3, 3, 1, 3, 5),
 		growth	: new Stat(0, 10, 20, 0, 10, 0, 10, 10),
