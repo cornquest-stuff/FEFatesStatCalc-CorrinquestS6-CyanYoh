@@ -143,7 +143,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(19, 10, 4, 6, 7, 4, 9, 3),
 		growth	: new Stat(15, 20, 10, 10, 10, 10, 15, 0),
-		maxStat	: new Stat(60, 34, 28, 29, 30, 33, 31, 28),
+		maxStat	: new Stat(60, 34, 28, 29, 30, 33, 33, 28),
 		restriction : [ "kamui" ],
 	},
 	
