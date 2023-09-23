@@ -131,7 +131,7 @@ db.classes = {
 	nohrPrince : {
 		name	: "Nohr Prince(ss)",
 		tier	: "tier1",
-		promoteTo : [ "hoshidoNoble", "nohrNoble" ],
+		promoteTo : [ "hoshidoNoble", "nohrNoble", "lodestar", "greatLord" ],
 		base	: new Stat(17, 7, 3, 4, 5, 2, 5, 2),
 		growth	: new Stat(15, 15, 10, 10, 10, 10, 10, 5),
 		maxStat	: new Stat(40, 23, 17, 19, 21, 22, 21, 19),
@@ -159,7 +159,7 @@ db.classes = {
 	samurai : {
 		name	: "Samurai",
 		tier	: "tier1",
-		promoteTo : [ "swordSaint", "weaponMaster" ],
+		promoteTo : [ "swordSaint", "weaponMaster", "greatLord" ],
 		parallel: "mercenary",
 		base	: new Stat(17, 5, 0, 6, 8, 3, 3, 3),
 		growth	: new Stat(10, 10, 0, 15, 20, 15, 0, 10),
@@ -212,7 +212,7 @@ db.classes = {
 	oni : {
 		name	: "Oni Savage",
 		tier	: "tier1",
-		promoteTo : [ "shura", "blacksmith" ],
+		promoteTo : [ "shura", "blacksmith", "vanguard" ],
 		parallel: "fighter",
 		base	: new Stat(18, 6, 1, 2, 5, 0, 7, 1),
 		growth	: new Stat(20, 20, 10, 0, 10, 0, 20, 0),
@@ -264,7 +264,7 @@ db.classes = {
 	diviner : {
 		name	: "Diviner",
 		tier	: "tier1",
-		promoteTo : [ "exorcist", "basara" ],
+		promoteTo : [ "exorcist", "basara", "grandmaster" ],
 		parallel: "mage",
 		base	: new Stat(15, 0, 4, 6, 6, 2, 1, 3),
 		growth	: new Stat(0, 5, 15, 10, 15, 5, 0, 10),
@@ -316,7 +316,7 @@ db.classes = {
 	pegKnight : {
 		name	: "Sky Knight",
 		tier	: "tier1",
-		promoteTo : [ "falcoKnight", "kinshiKnight" ],
+		promoteTo : [ "falcoKnight", "kinshiKnight", "darkFalcon" ],
 		parallel: "wyvernRider",
 		base	: new Stat(16, 3, 1, 5, 7, 4, 2, 6),
 		growth	: new Stat(0, 10, 5, 10, 15, 20, 0, 20),
@@ -342,7 +342,7 @@ db.classes = {
 	archer : {
 		name	: "Archer",
 		tier	: "tier1",
-		promoteTo : [ "sniper", "kinshiKnight" ],
+		promoteTo : [ "sniper", "kinshiKnight", "ballistician" ],
 		parallel: "outlaw",
 		base	: new Stat(17, 5, 0, 7, 5, 2, 4, 1),
 		growth	: new Stat(10, 15, 0, 15, 15, 5, 10, 0),
@@ -360,7 +360,7 @@ db.classes = {
 	ninja : {
 		name 	: "Ninja",
 		tier	: "tier1",
-		promoteTo : [ "jounin", "mechanist" ],
+		promoteTo : [ "jounin", "mechanist", "dreadFighter" ],
 		parallel: "cavalier",
 		base 	: new Stat(16, 3, 0, 8, 8, 1, 3, 3),
 		growth 	: new Stat(5, 5, 0, 20, 20, 0, 5, 15),
@@ -430,7 +430,7 @@ db.classes = {
 	knight : {
 		name	: "Knight",
 		tier	: "tier1",
-		promoteTo : [ "greatKnight", "general" ],
+		promoteTo : [ "greatKnight", "general", "ballistician" ],
 		parallel: "lancer",
 		base	: new Stat(19, 8, 0, 5, 3, 3, 8, 1),
 		growth	: new Stat(20, 20, 0, 15, 5, 10, 20, 0),
@@ -466,7 +466,7 @@ db.classes = {
 	mercenary : {
 		name	: "Mercenary",
 		tier	: "tier1",
-		promoteTo : [ "hero", "bowKnight" ],
+		promoteTo : [ "hero", "bowKnight", "lodestar" ],
 		parallel: "samurai",
 		base	: new Stat(17, 5, 0, 7, 6, 2, 5, 2),
 		growth	: new Stat(10, 15, 0, 20, 15, 5, 10, 5),
@@ -536,7 +536,7 @@ db.classes = {
 	mage : {
 		name	: "Dark Mage",
 		tier	: "tier1",
-		promoteTo : [ "sorcerer", "darkKnight" ],
+		promoteTo : [ "sorcerer", "darkKnight", "witch" ],
 		parallel: "diviner",
 		base	: new Stat(16, 0, 6, 3, 3, 1, 3, 5),
 		growth	: new Stat(0, 10, 20, 0, 10, 0, 10, 10),
