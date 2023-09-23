@@ -678,6 +678,7 @@ db.classes = {
 	lancer : {
 		name	: "Lancer",
 		tier	: "tier1",
+		promoteTo : [ "ballistician", "greatLord" ],
 		base	: new Stat(18, 5, 0, 5, 5, 2, 7, 2),
 		growth	: new Stat(15, 10, 0, 10, 10, 5, 20, 10),
 		maxStat	: new Stat(60, 31, 25, 29, 29, 30, 31, 29),
