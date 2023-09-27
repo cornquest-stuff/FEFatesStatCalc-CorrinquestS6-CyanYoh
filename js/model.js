@@ -287,6 +287,16 @@ db.classes = {
 		growth	: new Stat(0, 5, 10, 10, 15, 20, 0, 20),
 		maxStat	: new Stat(35, 18, 21, 20, 22, 23, 17, 24),
 	},
+
+	miko : {
+		name	: "Shrine Maiden",
+		tier	: "tier1",
+		promoteTo : [ "exorcist", "priestess" ],
+		base	: new Stat(16, 0, 3, 5, 5, 4, 2, 5),
+		growth	: new Stat(0, 5, 10, 10, 15, 20, 0, 20),
+		maxStat	: new Stat(35, 18, 21, 20, 22, 23, 17, 24),
+		restriction : [ "sakura" ]
+	},
 	
 	greatMaster : {
 		name	: "Great Master",
