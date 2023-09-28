@@ -197,7 +197,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(20, 9, 0, 6, 6, 5, 8, 5),
 		growth	: new Stat(20, 20, 0, 10, 5, 20, 15, 5),
-		maxStat	: new Stat(65, 33, 25, 29, 28, 32, 33, 30),
+		maxStat	: new Stat(65, 34, 25, 29, 28, 35, 33, 30),
 	},
 	
 	apoth : {
@@ -303,7 +303,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(19, 8, 6, 6, 8, 5, 6, 7),
 		growth	: new Stat(10, 15, 5, 5, 15, 20, 10, 10),
-		maxStat	: new Stat(55, 32, 30, 31, 33, 32, 28, 32),
+		maxStat	: new Stat(55, 32, 30, 31, 33, 35, 28, 32),
 	},
 	
 	priestess : {
@@ -311,7 +311,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(19, 6, 7, 6, 9, 5, 5, 8),
 		growth	: new Stat(10, 10, 10, 5, 15, 20, 0, 20),
-		maxStat	: new Stat(50, 29, 32, 30, 33, 34, 26, 34),
+		maxStat	: new Stat(50, 29, 32, 30, 33, 35, 26, 34),
 	},
 	
 	pegKnight : {
@@ -399,7 +399,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(19, 6, 2, 9, 10, 5, 2, 8),
 		growth	: new Stat(10, 10, 0, 15, 20, 20, 0, 20),
-		maxStat	: new Stat(55, 29, 29, 33, 34, 33, 27, 34),
+		maxStat	: new Stat(55, 29, 29, 33, 34, 35, 27, 34),
 	},
 	
 	cavalier : {
@@ -574,7 +574,7 @@ db.classes = {
 		tier	: "tier2",
 		base	: new Stat(16, 0, 7, 7, 7, 5, 2, 7),
 		growth	: new Stat(0, 0, 15, 10, 10, 20, 0, 15),
-		maxStat	: new Stat(45, 25, 33, 30, 31, 33, 25, 32),
+		maxStat	: new Stat(45, 25, 33, 30, 31, 35, 25, 32),
 	},
 	
 	maid : {
