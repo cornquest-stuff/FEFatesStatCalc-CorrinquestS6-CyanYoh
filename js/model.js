@@ -177,9 +177,9 @@ db.classes = {
 	weaponMaster : {
 		name	: "Master of Arms",
 		tier	: "tier2",
-		base	: new Stat(20, 9, 0, 6, 9, 3, 7, 3),
+		base	: new Stat(20, 9, 0, 7, 9, 3, 7, 3),
 		growth	: new Stat(20, 15, 0, 10, 10, 10, 10, 0),
-		maxStat	: new Stat(65, 33, 25, 30, 30, 31, 31, 28),
+		maxStat	: new Stat(65, 33, 25, 30, 31, 31, 31, 28),
 	},
 	
 	villager : {
@@ -188,7 +188,7 @@ db.classes = {
 		promoteTo : [ "weaponMaster", "merchant" ],
 		parallel: "apoth",
 		base	: new Stat(17, 5, 0, 4, 5, 3, 4, 0),
-		growth	: new Stat(10, 10, 0, 10, 10, 20, 10, 0),
+		growth	: new Stat(20, 20, 10, 20, 20, 30, 20, 10),
 		maxStat	: new Stat(35, 19, 15, 19, 19, 22, 18, 15),
 	},
 	
@@ -264,7 +264,7 @@ db.classes = {
 	diviner : {
 		name	: "Diviner",
 		tier	: "tier1",
-		promoteTo : [ "exorcist", "basara", "grandmaster" ],
+		promoteTo : [ "exorcist", "basara", "grandmaster", "dreadFighter" ],
 		parallel: "mage",
 		base	: new Stat(15, 0, 4, 6, 6, 2, 1, 3),
 		growth	: new Stat(0, 5, 15, 10, 15, 5, 0, 10),
