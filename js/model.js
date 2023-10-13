@@ -661,7 +661,7 @@ db.classes = {
 	},
 
 	witch : {
-		name	: "Witch/Warlock",
+		name	: "Witch",
 		tier	: "tier2",
 		base	: new Stat(17, 0, 10, 5, 9, 3, 4, 5),
 		growth	: new Stat(0, 0, 25, 5, 20, 5, 0, 10),
