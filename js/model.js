@@ -415,7 +415,7 @@ db.classes = {
 	paladin : {
 		name	: "Paladin",
 		tier	: "tier2",
-		base	: new Stat(19, 8, 1, 8, 7, 4, 8, 6),
+		base	: new Stat(19, 8, 1, 8, 7, 4, 7, 7),
 		growth	: new Stat(15, 15, 0, 15, 10, 15, 10, 10),
 		maxStat	: new Stat(60, 31, 26, 32, 30, 32, 32, 32),
 	},
