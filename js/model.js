@@ -188,7 +188,7 @@ db.classes = {
 		promoteTo : [ "weaponMaster", "merchant" ],
 		parallel: "apoth",
 		base	: new Stat(17, 5, 0, 4, 5, 3, 4, 0),
-		growth	: new Stat(20, 20, 10, 20, 20, 30, 20, 10),
+		growth	: new Stat(15, 15, 0, 15, 15, 30, 15, 0),
 		maxStat	: new Stat(35, 19, 15, 19, 19, 22, 18, 15),
 	},
 	
@@ -248,7 +248,7 @@ db.classes = {
 	sentinel : {
 		name	: "Spear Master",
 		tier	: "tier2",
-		base	: new Stat(19, 9, 0, 9, 8, 3, 7, 3),
+		base	: new Stat(19, 9, 0, 9, 8, 3, 8, 3),
 		growth	: new Stat(15, 20, 0, 15, 15, 5, 10, 5),
 		maxStat	: new Stat(60, 34, 25, 33, 32, 29, 30, 29),
 	},
@@ -266,7 +266,7 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "exorcist", "basara", "grandmaster", "dreadFighter" ],
 		parallel: "mage",
-		base	: new Stat(15, 0, 4, 6, 6, 2, 1, 3),
+		base	: new Stat(15, 0, 4, 6, 6, 2, 2, 4),
 		growth	: new Stat(0, 5, 15, 10, 15, 5, 0, 10),
 		maxStat	: new Stat(35, 17, 22, 20, 23, 19, 16, 20),
 	},
@@ -389,23 +389,23 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "nineTails" ],
 		parallel: "apoth",
-		base	: new Stat(16, 5, 1, 6, 8, 4, 1, 4),
-		growth	: new Stat(10, 10, 0, 15, 20, 15, 0, 20),
+		base	: new Stat(16, 5, 3, 6, 8, 4, 3, 5),
+		growth	: new Stat(10, 10, 10, 15, 20, 15, 0, 20),
 		maxStat	: new Stat(40, 20, 18, 23, 24, 24, 18, 23),
 	},
 
 	nineTails : {
 		name	: "Nine-Tails",
 		tier	: "tier2",
-		base	: new Stat(19, 6, 2, 9, 10, 5, 2, 8),
-		growth	: new Stat(10, 10, 0, 15, 20, 20, 0, 20),
+		base	: new Stat(19, 6, 6, 9, 10, 5, 4, 9),
+		growth	: new Stat(10, 10, 10, 15, 20, 20, 0, 20),
 		maxStat	: new Stat(55, 29, 29, 33, 34, 35, 27, 34),
 	},
 	
 	cavalier : {
 		name	: "Cavalier",
 		tier	: "tier1",
-		promoteTo : [ "paladin", "greatKnight" ],
+		promoteTo : [ "paladin", "greatKnight", "darkKnight", "darkFalcon" ],
 		parallel: "ninja",
 		base	: new Stat(17, 6, 0, 5, 5, 3, 5, 3),
 		growth	: new Stat(10, 15, 0, 10, 10, 15, 10, 5),
@@ -441,7 +441,7 @@ db.classes = {
 	general : {
 		name	: "General",
 		tier	: "tier2",
-		base	: new Stat(23, 12, 0, 9, 3, 4, 12, 4),
+		base	: new Stat(23, 12, 0, 9, 4, 4, 12, 4),
 		growth	: new Stat(25, 20, 0, 15, 0, 10, 20, 5),
 		maxStat	: new Stat(70, 38, 25, 33, 25, 32, 40, 30),
 	},
@@ -503,9 +503,9 @@ db.classes = {
 	adventurer : {
 		name	: "Adventurer",
 		tier	: "tier2",
-		base	: new Stat(17, 5, 6, 6, 10, 2, 3, 8),
+		base	: new Stat(17, 5, 6, 7, 11, 2, 3, 9),
 		growth	: new Stat(0, 10, 15, 10, 20, 0, 0, 20),
-		maxStat	: new Stat(50, 27, 31, 29, 34, 27, 25, 34),
+		maxStat	: new Stat(50, 28, 31, 30, 35, 27, 25, 35),
 	},
 	
 	wyvernRider : {
