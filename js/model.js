@@ -442,7 +442,7 @@ db.classes = {
 		name	: "General",
 		tier	: "tier2",
 		base	: new Stat(23, 12, 0, 9, 4, 4, 12, 4),
-		growth	: new Stat(25, 20, 0, 15, 0, 10, 20, 5),
+		growth	: new Stat(25, 20, 0, 15, 0, 10, 25, 5),
 		maxStat	: new Stat(70, 38, 25, 33, 25, 32, 40, 30),
 	},
 	
