@@ -257,7 +257,7 @@ db.classes = {
 		name	: "Basara",
 		tier	: "tier2",
 		base	: new Stat(20, 7, 5, 7, 7, 5, 7, 6),
-		growth	: new Stat(20, 10, 10, 10, 10, 15, 5, 10),
+		growth	: new Stat(20, 10, 10, 10, 10, 20, 5, 10),
 		maxStat	: new Stat(65, 31, 30, 30, 31, 35, 30, 32),
 	},
 	
@@ -274,9 +274,9 @@ db.classes = {
 	exorcist : {
 		name	: "Onmyoji",
 		tier	: "tier2",
-		base	: new Stat(16, 0, 8, 9, 8, 3, 3, 7),
-		growth	: new Stat(0, 0, 20, 15, 15, 5, 0, 15),
-		maxStat	: new Stat(45, 25, 33, 33, 32, 30, 25, 31),
+		base	: new Stat(16, 0, 8, 9, 8, 4, 3, 7),
+		growth	: new Stat(0, 0, 20, 15, 15, 10, 0, 15),
+		maxStat	: new Stat(45, 25, 33, 33, 32, 31, 25, 31),
 	},
 	
 	monk : {
@@ -389,17 +389,17 @@ db.classes = {
 		tier	: "tier1",
 		promoteTo : [ "nineTails" ],
 		parallel: "apoth",
-		base	: new Stat(16, 5, 3, 6, 8, 4, 3, 5),
-		growth	: new Stat(10, 10, 10, 15, 20, 15, 0, 20),
+		base	: new Stat(16, 5, 3, 7, 8, 4, 3, 7),
+		growth	: new Stat(10, 10, 10, 20, 20, 15, 0, 20),
 		maxStat	: new Stat(40, 20, 18, 23, 24, 24, 18, 23),
 	},
 
 	nineTails : {
 		name	: "Nine-Tails",
 		tier	: "tier2",
-		base	: new Stat(19, 6, 6, 9, 10, 5, 4, 9),
-		growth	: new Stat(10, 10, 10, 15, 20, 20, 0, 20),
-		maxStat	: new Stat(55, 29, 29, 33, 34, 35, 27, 34),
+		base	: new Stat(19, 6, 6, 10, 11, 6, 4, 11),
+		growth	: new Stat(10, 10, 10, 20, 20, 20, 0, 20),
+		maxStat	: new Stat(55, 29, 29, 35, 35, 36, 27, 36),
 	},
 	
 	cavalier : {
@@ -547,7 +547,7 @@ db.classes = {
 	sorcerer : {
 		name	: "Sorcerer",
 		tier	: "tier2",
-		base	: new Stat(17, 0, 10, 5, 6, 1, 6, 9),
+		base	: new Stat(17, 0, 9, 5, 6, 1, 6, 8),
 		growth	: new Stat(5, 0, 25, 0, 10, 0, 10, 15),
 		maxStat	: new Stat(50, 25, 35, 26, 29, 26, 29, 33),
 	},
@@ -656,16 +656,16 @@ db.classes = {
 		name	: "Grandmaster",
 		tier	: "tier2",
 		base	: new Stat(18, 7, 6, 8, 7, 2, 6, 8),
-		growth	: new Stat(10, 15, 15, 15, 5, 0, 5, 15),
-		maxStat	: new Stat(55, 31, 33, 33, 29, 26, 28, 33),
+		growth	: new Stat(10, 15, 15, 15, 10, 0, 5, 15),
+		maxStat	: new Stat(55, 31, 33, 33, 30, 26, 28, 33),
 	},
 
 	witch : {
 		name	: "Witch",
 		tier	: "tier2",
-		base	: new Stat(17, 0, 10, 5, 9, 3, 4, 5),
-		growth	: new Stat(0, 0, 25, 5, 20, 5, 0, 10),
-		maxStat	: new Stat(50, 25, 36, 27, 34, 28, 26, 29),
+		base	: new Stat(17, 0, 10, 7, 9, 3, 4, 5),
+		growth	: new Stat(0, 0, 25, 10, 20, 5, 0, 10),
+		maxStat	: new Stat(50, 25, 36, 30, 34, 28, 26, 29),
 	},
 	
 	ballistician : {
