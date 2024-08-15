@@ -301,16 +301,16 @@ db.classes = {
 	greatMaster : {
 		name	: "Great Master",
 		tier	: "tier2",
-		base	: new Stat(19, 8, 6, 6, 8, 5, 6, 7),
-		growth	: new Stat(10, 15, 5, 5, 15, 20, 10, 10),
+		base	: new Stat(19, 8, 6, 7, 8, 5, 6, 7),
+		growth	: new Stat(10, 15, 5, 10, 15, 20, 10, 10),
 		maxStat	: new Stat(55, 32, 30, 31, 33, 35, 28, 32),
 	},
 	
 	priestess : {
 		name	: "Priestess",
 		tier	: "tier2",
-		base	: new Stat(19, 6, 7, 6, 9, 5, 5, 8),
-		growth	: new Stat(10, 10, 10, 5, 15, 20, 0, 20),
+		base	: new Stat(19, 6, 7, 7, 9, 5, 5, 8),
+		growth	: new Stat(10, 10, 10, 10, 15, 20, 0, 20),
 		maxStat	: new Stat(50, 29, 32, 30, 33, 35, 26, 34),
 	},
 	
@@ -655,7 +655,7 @@ db.classes = {
 	grandmaster : {
 		name	: "Grandmaster",
 		tier	: "tier2",
-		base	: new Stat(18, 7, 6, 8, 7, 2, 6, 8),
+		base	: new Stat(18, 7, 6, 9, 7, 2, 6, 8),
 		growth	: new Stat(10, 15, 15, 15, 10, 0, 5, 15),
 		maxStat	: new Stat(55, 31, 33, 33, 30, 26, 28, 33),
 	},
