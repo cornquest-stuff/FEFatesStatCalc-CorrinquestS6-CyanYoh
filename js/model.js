@@ -580,9 +580,9 @@ db.classes = {
 	maid : {
 		name	: "Maid/Butler",
 		tier	: "tier2",
-		base	: new Stat(18, 5, 6, 9, 9, 4, 5, 5),
-		growth	: new Stat(0, 10, 10, 15, 15, 10, 5, 10),
-		maxStat	: new Stat(50, 29, 31, 33, 33, 32, 29, 29),
+		base	: new Stat(18, 5, 6, 10, 10, 4, 5, 5),
+		growth	: new Stat(0, 10, 10, 20, 20, 10, 5, 10),
+		maxStat	: new Stat(50, 29, 31, 35, 34, 32, 29, 29),
 	},
 	
 	wolfskin : {
