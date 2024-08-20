@@ -239,6 +239,7 @@ $(document).ready(function() {
 	
 	function updateTable() {
 		var levelList = calc.compute();
+		const attributes = Object.keys(levelList[0][0].stat)
 		$("#table-div").empty();
 		
 		var table = $("<table/>").addClass("table table-striped table-hover table-condensed").attr("style", "width: 500px");
@@ -246,7 +247,7 @@ $(document).ready(function() {
 		// Headings
 		var headerRow = $("<tr/>");
 		headerRow.append($("<th/>").text("Level"));
-		for (var attr in levelList[0][0].stat)
+		for (var attr of attributes)
 			headerRow.append($("<th/>").text(attr));
 		table.append($("<thead/>").append(headerRow));
 		
@@ -259,7 +260,7 @@ $(document).ready(function() {
 			for (var j=0; j<levelList[i].length; j++) {
 				var row = $("<tr/>");
 				row.append($("<td/>").text(levelList[i][j].displayedLevel));
-				for (var attr in levelList[i][j].stat) {
+				for (var attr of attributes) {
 					var val = levelList[i][j].stat[attr];
 					var cell;
 					if (val >= levelList[i][j].statCap[attr]) {
@@ -274,15 +275,15 @@ $(document).ready(function() {
 			// Cap
 			var capRow = $("<tr/>");
 			capRow.append($("<td/>").append($("<span/>").addClass("cap-td").text("Cap")));
-			for (var attr in levelList[i][0].statCap)
+			for (var attr of attributes)
 				capRow.append($("<td/>").append($("<span/>").addClass("cap-td").text(levelList[i][0].statCap[attr])));
 			tableBody.append(capRow);
 
 			// Growths
 			var growthRow = $("<tr/>");
 			growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text("Grow")));
-			for (var attr in levelList[i][0].growth)
-				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][0].growth[attr] + "%")));
+			for (var attr of attributes)
+				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][levelList[i].length-1].growth[attr] + "%")));
 			tableBody.append(growthRow);
 			
 		}
