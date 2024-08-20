@@ -234,6 +234,7 @@ StatCalculator.prototype.compute = function() {
 		startingLevel.setInitialLevel(0, baseStat.level);
 	for (var attr in startingLevel.stat)
 		startingLevel.statCap[attr] = db.classes[this.character.baseClass].maxStat[attr] + this.character.cap[attr];
+		startingLevel.growths[attr] = db.classes[this.character.baseClass].growth[attr] + this.character.growth[attr];
 	averageStats[0].push(startingLevel);
 	var prev = startingLevel;
 	
@@ -254,7 +255,6 @@ StatCalculator.prototype.compute = function() {
 		}else {
 			// No change, calculate growth as per normal
 			var thisLevel = new LevelAttribute(prev.unitClass, {});
-			thisLevel.growths = {};
 			thisLevel.increaseLevel(prev);
 			for (var attr in this.character.growth) {
 				var growth = (this.character.growth[attr] + prev.unitClass.growth[attr] + this.aptitude);
