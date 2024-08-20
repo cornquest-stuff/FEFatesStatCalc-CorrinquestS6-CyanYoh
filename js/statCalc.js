@@ -16,6 +16,7 @@ var LevelAttribute = function(unitClass, stat) {
 	this.unitClass = unitClass;
 	this.stat = stat;
 	this.statCap = {};
+	this.growths = {};
 	this.tier1Level = 0;
 	this.tier2Level = 0;
 }
@@ -233,6 +234,7 @@ StatCalculator.prototype.compute = function() {
 		startingLevel.setInitialLevel(0, baseStat.level);
 	for (var attr in startingLevel.stat)
 		startingLevel.statCap[attr] = db.classes[this.character.baseClass].maxStat[attr] + this.character.cap[attr];
+		startingLevel.growths[attr] = db.classes[this.character.baseClass].growth[attr] + this.character.growth[attr];
 	averageStats[0].push(startingLevel);
 	var prev = startingLevel;
 	
@@ -247,6 +249,7 @@ StatCalculator.prototype.compute = function() {
 			
 			for (var attr in newClass.base) {
 				thisLevel.statCap[attr] = newClass.maxStat[attr] + this.character.cap[attr];
+				thisLevel.growths[attr] = newClass.growth[attr] + this.character.growth[attr];
 				thisLevel.stat[attr] = (prev.stat[attr]*FIX + newClass.base[attr]*FIX - oldClass.base[attr]*FIX)/FIX;
 			}
 			averageStats[++i] = [];
