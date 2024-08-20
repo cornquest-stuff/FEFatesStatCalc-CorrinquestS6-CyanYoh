@@ -249,6 +249,7 @@ StatCalculator.prototype.compute = function() {
 			
 			for (var attr in newClass.base) {
 				thisLevel.statCap[attr] = newClass.maxStat[attr] + this.character.cap[attr];
+				thisLevel.growths[attr] = newClass.growth[attr] + this.character.growth[attr];
 				thisLevel.stat[attr] = (prev.stat[attr]*FIX + newClass.base[attr]*FIX - oldClass.base[attr]*FIX)/FIX;
 			}
 			averageStats[++i] = [];
@@ -261,8 +262,8 @@ StatCalculator.prototype.compute = function() {
 				// Does not grow if stat is at cap
 				// The extra multiplication eliminates javascript floating point precision problem
 				thisLevel.statCap[attr] = prev.statCap[attr];
+				thisLevel.growths[attr] = prev.growths[attr];
 				thisLevel.stat[attr] = Math.min((prev.stat[attr]*FIX + growth*FIX/100)/FIX, thisLevel.statCap[attr]);
-				thisLevel.growths[attr] = growth;
 			}
 		}
 		prev = thisLevel;
