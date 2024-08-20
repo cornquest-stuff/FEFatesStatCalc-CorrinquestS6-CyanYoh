@@ -755,6 +755,7 @@ db.character = {
 			this.base.Standard = {};
 			this.base.Standard.level = 1;
 			this.base.Standard.stat = {};
+			this.finalGrowths = {}; // Initialize the final growths property
 			for (var attr in keySet) {
 				if (attr == boon)
 					this.base.Standard.stat[attr] = this.baseMod.none[attr] + this.baseMod.boon[attr];
