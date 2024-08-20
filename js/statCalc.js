@@ -263,8 +263,8 @@ StatCalculator.prototype.compute = function() {
 				// Does not grow if stat is at cap
 				// The extra multiplication eliminates javascript floating point precision problem
 				thisLevel.statCap[attr] = prev.statCap[attr];
-				thisLevel.growths[attr] = prev.growths[attr];
-				thisLevel.stat[attr] = Math.min((prev.stat[attr]*FIX + growth*FIX/100)/FIX, thisLevel.statCap[attr]);	
+				thisLevel.stat[attr] = Math.min((prev.stat[attr]*FIX + growth*FIX/100)/FIX, thisLevel.statCap[attr]);
+				thisLevel.growths[attr] = growth
 			}
 		}
 		prev = thisLevel;
