@@ -280,9 +280,9 @@ $(document).ready(function() {
 
 			// Growths
 			var growthRow = $("<tr/>");
-			growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text("Grw")));
+			growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text("Grow")));
 			for (var attr in levelList[i][0].statCap)
-				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][levelList[i].length-1].growth[attr] + "%")));
+				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][0].statCap[attr] + "%")));
 			tableBody.append(growthRow);
 			
 		}
