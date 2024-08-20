@@ -284,4 +284,3 @@ $(document).ready(function() {
 		$("#table-div").append(table.append(tableBody));
 	}
 });
-
