@@ -277,6 +277,13 @@ $(document).ready(function() {
 			for (var attr in levelList[i][0].statCap)
 				capRow.append($("<td/>").append($("<span/>").addClass("cap-td").text(levelList[i][0].statCap[attr])));
 			tableBody.append(capRow);
+
+			// Growths
+			var growthRow = $("<tr/>");
+			growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text("Grw")));
+			for (var attr of attributes)
+				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][levelList[i].length-1].growth[attr] + "%")));
+			tableBody.append(growthRow);
 			
 		}
 		
