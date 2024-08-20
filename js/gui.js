@@ -283,7 +283,7 @@ $(document).ready(function() {
 			var growthRow = $("<tr/>");
 			growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text("Grw")));
 			for (var attr of attributes)
-				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][levelList[i].length-1].growth[attr] + "%")));
+				growthRow.append($("<td/>").append($("<span/>").addClass("growth-td").text(levelList[i][levelList[i].length-1].growths[attr] + "%")));
 			tableBody.append(growthRow);
 			
 		}
