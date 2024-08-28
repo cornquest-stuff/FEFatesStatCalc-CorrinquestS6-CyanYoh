@@ -353,9 +353,9 @@ db.classes = {
 	sniper : {
 		name	: "Sniper",
 		tier	: "tier2",
-		base	: new Stat(19, 7, 0, 10, 9, 3, 6, 2),
-		growth	: new Stat(10, 15, 0, 20, 15, 5, 10, 0),
-		maxStat	: new Stat(55, 31, 25, 35, 33, 30, 31, 28),
+		base	: new Stat(19, 7, 0, 12, 9, 3, 6, 2),
+		growth	: new Stat(10, 15, 0, 25, 15, 5, 10, 0),
+		maxStat	: new Stat(55, 31, 25, 40, 33, 30, 31, 28),
 	},
 
 	ninja : {
@@ -477,9 +477,9 @@ db.classes = {
 	hero : {
 		name	: "Hero",
 		tier	: "tier2",
-		base	: new Stat(20, 8, 0, 10, 9, 3, 7, 3),
-		growth	: new Stat(20, 15, 0, 20, 15, 5, 10, 0),
-		maxStat	: new Stat(60, 32, 25, 35, 33, 31, 30, 27),
+		base	: new Stat(20, 8, 0, 12, 9, 3, 7, 3),
+		growth	: new Stat(20, 15, 0, 25, 15, 5, 10, 0),
+		maxStat	: new Stat(60, 32, 25, 40, 33, 31, 30, 27),
 	},
 	
 	bowKnight : {
@@ -631,9 +631,9 @@ db.classes = {
 	lodestar : {
 		name	: "Lodestar",
 		tier	: "tier2",
-		base	: new Stat(19, 7, 0, 10, 9, 7, 7, 2),
-		growth	: new Stat(15, 10, 0, 20, 15, 25, 5, 5),
-		maxStat	: new Stat(60, 29, 26, 35, 33, 40, 30, 29),
+		base	: new Stat(19, 7, 0, 12, 9, 7, 7, 2),
+		growth	: new Stat(15, 10, 0, 25, 15, 25, 5, 5),
+		maxStat	: new Stat(60, 29, 26, 40, 33, 40, 30, 29),
 	},
 	
 	greatLord : {
