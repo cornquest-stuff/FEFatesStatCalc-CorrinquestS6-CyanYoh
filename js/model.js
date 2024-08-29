@@ -346,8 +346,8 @@ db.classes = {
 		promoteTo : [ "sniper", "kinshiKnight", "ballistician" ],
 		parallel: "outlaw",
 		base	: new Stat(17, 5, 0, 7, 5, 2, 4, 1),
-		growth	: new Stat(10, 15, 0, 15, 15, 5, 10, 0),
-		maxStat	: new Stat(40, 21, 15, 23, 21, 20, 20, 17),
+		growth	: new Stat(10, 15, 0, 20, 15, 5, 10, 0),
+		maxStat	: new Stat(40, 21, 15, 24, 21, 20, 20, 17),
 	},
 	
 	sniper : {
