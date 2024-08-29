@@ -290,12 +290,5 @@ $(document).ready(function() {
 		
 		// Append table to div
 		$("#table-div").append(table.append(tableBody));
-	
-		// Adjust the CSS for the table container
-		$("#table-div").css({
-			'height': '100%',       // Use full available height
-			'overflow-y': 'auto',   // Enable vertical scrolling if content exceeds the height
-			'overflow-x': 'hidden', // Prevent horizontal scrolling
-		});
 	}
 });
