@@ -391,7 +391,7 @@ db.classes = {
 		parallel: "apoth",
 		base	: new Stat(16, 5, 3, 7, 8, 4, 3, 7),
 		growth	: new Stat(10, 10, 10, 20, 20, 15, 0, 20),
-		maxStat	: new Stat(40, 20, 18, 23, 24, 24, 18, 23),
+		maxStat	: new Stat(40, 20, 18, 24, 24, 24, 18, 23),
 	},
 
 	nineTails : {
