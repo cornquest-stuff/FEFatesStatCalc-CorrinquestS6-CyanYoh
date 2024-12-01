@@ -361,7 +361,7 @@ db.classes = {
 	ninja : {
 		name 	: "Ninja",
 		tier	: "tier1",
-		promoteTo : [ "jounin", "mechanist", "dreadFighter" ],
+		promoteTo : [ "jounin", "mechanist", "dreadFighter", "maid" ],
 		parallel: "cavalier",
 		base 	: new Stat(16, 3, 0, 8, 8, 1, 3, 3),
 		growth 	: new Stat(5, 5, 0, 20, 20, 0, 5, 15),
